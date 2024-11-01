@@ -28,7 +28,7 @@ que desejam integrar paletas de cores em seus projetos.
 
 #### Exemplo de Requisição: 
 
-` GET http://localhost:3000/api/colors
+` GET https://api-cores-gradientes-mzjvne7e1-oblipixproject.vercel.app/api/colors
 `
 #### Exemplo de Resposta: 
                     
@@ -52,7 +52,7 @@ que desejam integrar paletas de cores em seus projetos.
 #### Exemplo de Requisição: 
 
 ` 
-GET http://localhost:3000/api/gradients
+GET https://api-cores-gradientes-mzjvne7e1-oblipixproject.vercel.app/api/gradients
 `
 
 #### Exemplo de Requisição: 
@@ -75,8 +75,10 @@ GET http://localhost:3000/api/gradients
 
 #### Exemplo de Requisição: 
 
-`GET http://localhost:3000/api/combinations?color=%230077be
-`
+`GET https://api-cores-gradientes-mzjvne7e1-oblipixproject.vercel.app/api/combinations?color=#FF5733` 
+>
+>(substitua `#FF5733` por qualquer cor HEX que você queira testar)
+
 
 #### Exemplo de Resposta: 
 
