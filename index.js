@@ -37,6 +37,4 @@ app.get('/api/combinations', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`API de Cores e Gradientes rodando em http://localhost:${port}`);
-});
+module.exports = app;
