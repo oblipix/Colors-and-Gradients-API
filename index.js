@@ -1,10 +1,9 @@
-
 const express = require('express');
 const cors = require('cors');
 const { colors, gradients } = require('./data');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 
@@ -29,8 +28,7 @@ app.get('/api/combinations', (req, res) => {
   if (!color) {
     return res.status(400).json({ error: 'Parâmetro de cor (color) é necessário no formato HEX.' });
   }
-  
-  // Exemplo simples de combinação (a lógica pode ser expandida)
+
   const suggestions = colors.filter(c => c.hex !== color).slice(0, 3);
   
   res.json({
