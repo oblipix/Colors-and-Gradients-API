@@ -23,10 +23,6 @@ app.get('/api/gradients', (req, res) => {
   res.json(gradients);
 });
 
-
-
-
-
 // Endpoint para sugerir combinações de cores
 app.get('/api/combinations', (req, res) => {
   let { color } = req.query;
@@ -49,9 +45,6 @@ app.get('/api/combinations', (req, res) => {
     suggestions
   });
 });
-
-
- 
 
 // Inicia o servidor
 app.listen(port, () => {

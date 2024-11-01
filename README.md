@@ -117,7 +117,6 @@ GET https://api-cores-gradientes-1l5ecl9me-oblipixproject.vercel.app/api/gradien
 >
 >  
 >
-> <img src="https://img.icons8.com/ios-filled/50/000000/server.png" alt="Server Icon" width="20"/> Inicie o Servidor: `node index.js`
 > 
 
 > [!TIP]
