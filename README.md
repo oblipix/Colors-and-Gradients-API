@@ -6,7 +6,7 @@
 
 
 
-## API de Cores e Gradientes
+## 💻 API de Cores e Gradientes
 
 
 **Descrição**
@@ -87,7 +87,8 @@ GET https://api-cores-gradientes-73qrc073v-oblipixproject.vercel.app/api/gradien
 
 
 
-## Como Clonar este Repositório
+___
+## ⚙️ Como Clonar este Repositório
 
 
 
@@ -126,17 +127,6 @@ GET https://api-cores-gradientes-73qrc073v-oblipixproject.vercel.app/api/gradien
 
   
   
-  ### Vamos clonar este repositório passo a passo. 
-
-  
-_Obtenha a URL do repositório:_
-
-` https://github.com/oblipix/Colors-and-Gradients-API.git `
-
-
-
-
-navegue até a pasta onde deseja clonar.
 
 **Clone o repositório:**
 
@@ -149,6 +139,12 @@ git clone https://github.com/oblipix/Colors-and-Gradients-API.git
 
 
 
+
+___
+
+
+## 📜 Licença
+Esse projeto está licenciado sob a MIT License.
 
 
 
